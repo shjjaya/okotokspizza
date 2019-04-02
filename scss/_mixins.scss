@@ -1,0 +1,17 @@
+// _mixins.scss
+
+@mixin rounded-corners() {
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -o-border-radius: 12px;
+    -ms-border-radius: 12px;
+    border-radius: 12px;
+}
+
+@mixin box-shadow($x-offset, $y-offset, $blur) {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) $x-offset $y-offset $blur;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) $x-offset $y-offset $blur;
+    -o-box-shadow: rgba(0, 0, 0, 0.2) $x-offset $y-offset $blur;
+    -ms-box-shadow: rgba(0, 0, 0, 0.2) $x-offset $y-offset $blur;
+    box-shadow: rgba(0, 0, 0, 0.2) $x-offset $y-offset $blur;
+}

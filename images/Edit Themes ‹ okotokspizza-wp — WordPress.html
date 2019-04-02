@@ -1,0 +1,1905 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://okotokspizza-wp.local/wp-admin/theme-editor.php -->
+<html xmlns="http://www.w3.org/1999/xhtml" class="wp-toolbar" lang="en-US"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Edit Themes ‹ okotokspizza-wp — WordPress</title>
+<script type="text/javascript">
+addLoadEvent = function(func){if(typeof jQuery!="undefined")jQuery(document).ready(func);else if(typeof wpOnload!='function'){wpOnload=func;}else{var oldonload=wpOnload;wpOnload=function(){oldonload();func();}}};
+var ajaxurl = '/wp-admin/admin-ajax.php',
+	pagenow = 'theme-editor',
+	typenow = '',
+	adminpage = 'theme-editor-php',
+	thousandsSeparator = ',',
+	decimalPoint = '.',
+	isRtl = 0;
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="dns-prefetch" href="http://s.w.org/">
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" href="./Edit Themes ‹ okotokspizza-wp — WordPress_files/load-styles.php" type="text/css" media="all">
+<link rel="stylesheet" id="wp-codemirror-css" href="./Edit Themes ‹ okotokspizza-wp — WordPress_files/codemirror.min.css" type="text/css" media="all">
+<!--[if lte IE 7]>
+<link rel='stylesheet' id='ie-css'  href='http://okotokspizza-wp.local/wp-admin/css/ie.min.css?ver=5.0.3' type='text/css' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="wppizza-admin-css" href="./Edit Themes ‹ okotokspizza-wp — WordPress_files/styles-admin.css" type="text/css" media="all">
+<link rel="stylesheet" id="thickbox-css" href="./Edit Themes ‹ okotokspizza-wp — WordPress_files/thickbox.css" type="text/css" media="all">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/okotokspizza-wp.local\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/wp-emoji-release.min.js.download" type="text/javascript" defer=""></script>
+		
+<script type="text/javascript">
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"1","time":"1548125008","secure":""};/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/load-scripts.php"></script>
+<script type="text/javascript" src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/code-editor.min.js.download"></script>
+<script type="text/javascript">
+jQuery.extend( wp.codeEditor.defaultSettings, {"codemirror":{"indentUnit":4,"indentWithTabs":true,"inputStyle":"contenteditable","lineNumbers":true,"lineWrapping":true,"styleActiveLine":true,"continueComments":true,"extraKeys":{"Ctrl-Space":"autocomplete","Ctrl-\/":"toggleComment","Cmd-\/":"toggleComment","Alt-F":"findPersistent","Ctrl-F":"findPersistent","Cmd-F":"findPersistent"},"direction":"ltr","gutters":["CodeMirror-lint-markers"],"mode":"css","lint":true,"autoCloseBrackets":true,"matchBrackets":true},"csslint":{"errors":true,"box-model":true,"display-property-grouping":true,"duplicate-properties":true,"known-properties":true,"outline-none":true},"jshint":{"boss":true,"curly":true,"eqeqeq":true,"eqnull":true,"es3":true,"expr":true,"immed":true,"noarg":true,"nonbsp":true,"onevar":true,"quotmark":"single","trailing":true,"undef":true,"unused":true,"browser":true,"globals":{"_":false,"Backbone":false,"jQuery":false,"JSON":false,"wp":false}},"htmlhint":{"tagname-lowercase":true,"attr-lowercase":true,"attr-value-double-quotes":false,"doctype-first":false,"tag-pair":true,"spec-char-escape":true,"id-unique":true,"src-not-empty":true,"attr-no-duplication":true,"alt-require":true,"space-tab-mixed-disabled":"tab","attr-unsafe-chars":true}} );
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/csslint.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/wp-util.min.js.download"></script>
+<script type="text/javascript" src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/wp-sanitize.min.js.download"></script>
+<script type="text/javascript" src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/core.min.js.download"></script>
+<script type="text/javascript" src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/wp-a11y.min.js.download"></script>
+<script type="text/javascript" src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/theme-plugin-editor.min.js.download"></script>
+<script type="text/javascript">
+wp.themePluginEditor.l10n = {"saveAlert":"The changes you made will be lost if you navigate away from this page.","saveError":"Something went wrong. Your change may not have been saved. Please try again. There is also a chance that you may need to manually fix and upload the file over FTP.","lintError":{"singular":"There is %d error which must be fixed before you can update this file.","plural":"There are %d errors which must be fixed before you can update this file."}};
+jQuery( function( $ ) { wp.themePluginEditor.init( $( "#template" ), {"codeEditor":{"codemirror":{"indentUnit":4,"indentWithTabs":true,"inputStyle":"contenteditable","lineNumbers":true,"lineWrapping":true,"styleActiveLine":true,"continueComments":true,"extraKeys":{"Ctrl-Space":"autocomplete","Ctrl-\/":"toggleComment","Cmd-\/":"toggleComment","Alt-F":"findPersistent","Ctrl-F":"findPersistent","Cmd-F":"findPersistent"},"direction":"ltr","gutters":["CodeMirror-lint-markers"],"mode":"css","lint":true,"autoCloseBrackets":true,"matchBrackets":true},"csslint":{"errors":true,"box-model":true,"display-property-grouping":true,"duplicate-properties":true,"known-properties":true,"outline-none":true},"jshint":{"boss":true,"curly":true,"eqeqeq":true,"eqnull":true,"es3":true,"expr":true,"immed":true,"noarg":true,"nonbsp":true,"onevar":true,"quotmark":"single","trailing":true,"undef":true,"unused":true,"browser":true,"globals":{"_":false,"Backbone":false,"jQuery":false,"JSON":false,"wp":false}},"htmlhint":{"tagname-lowercase":true,"attr-lowercase":true,"attr-value-double-quotes":false,"doctype-first":false,"tag-pair":true,"spec-char-escape":true,"id-unique":true,"src-not-empty":true,"attr-no-duplication":true,"alt-require":true,"space-tab-mixed-disabled":"tab","attr-unsafe-chars":true}}} ); } )
+wp.themePluginEditor.themeOrPlugin = "theme";
+</script>
+	<link id="wp-admin-canonical" rel="canonical" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php">
+	<script>
+		if ( window.history.replaceState ) {
+			window.history.replaceState( null, null, document.getElementById( 'wp-admin-canonical' ).href + window.location.hash );
+		}
+	</script>
+<script type="text/javascript">var _wpColorScheme = {"icons":{"base":"#82878c","focus":"#00a0d2","current":"#fff"}};</script>
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+</head>
+<body class="wp-admin wp-core-ui js  theme-editor-php auto-fold admin-bar branch-5 version-5-0-3 admin-color-fresh locale-en-us customize-support sticky-menu svg">
+<script type="text/javascript">
+	document.body.className = document.body.className.replace('no-js','js');
+</script>
+
+	<!--[if lte IE 8]>
+		<script type="text/javascript">
+			document.body.className = document.body.className.replace( /(^|\s)(no-)?customize-support(?=\s|$)/, '' ) + ' no-customize-support';
+		</script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+		<script type="text/javascript">
+			(function() {
+				var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+						request = true;
+		
+				b[c] = b[c].replace( rcs, ' ' );
+				// The customizer requires postMessage and CORS (if the site is cross domain)
+				b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+			}());
+		</script>
+	<!--<![endif]-->
+	
+<div id="wpwrap">
+
+<div id="adminmenumain" role="navigation" aria-label="Main menu">
+<a href="http://okotokspizza-wp.local/wp-admin/theme-editor.php#wpbody-content" class="screen-reader-shortcut">Skip to main content</a>
+<a href="http://okotokspizza-wp.local/wp-admin/theme-editor.php#wp-toolbar" class="screen-reader-shortcut">Skip to toolbar</a>
+<div id="adminmenuback"></div>
+<div id="adminmenuwrap">
+<ul id="adminmenu">
+
+
+	<li class="wp-first-item wp-has-submenu wp-not-current-submenu menu-top menu-top-first menu-icon-dashboard menu-top-last" id="menu-dashboard">
+	<a href="http://okotokspizza-wp.local/wp-admin/index.php" class="wp-first-item wp-has-submenu wp-not-current-submenu menu-top menu-top-first menu-icon-dashboard menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-dashboard"><br></div><div class="wp-menu-name">Dashboard</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Dashboard</li><li class="wp-first-item"><a href="http://okotokspizza-wp.local/wp-admin/index.php" class="wp-first-item">Home</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/update-core.php">Updates <span class="update-plugins count-0"><span class="update-count">0</span></span></a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-post open-if-no-js menu-top-first" id="menu-posts">
+	<a href="http://okotokspizza-wp.local/wp-admin/edit.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-post open-if-no-js menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-post"><br></div><div class="wp-menu-name">Posts</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Posts</li><li class="wp-first-item"><a href="http://okotokspizza-wp.local/wp-admin/edit.php" class="wp-first-item">All Posts</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/post-new.php">Add New</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit-tags.php?taxonomy=category">Categories</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit-tags.php?taxonomy=post_tag">Tags</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" id="menu-media">
+	<a href="http://okotokspizza-wp.local/wp-admin/upload.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-media"><br></div><div class="wp-menu-name">Media</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Media</li><li class="wp-first-item"><a href="http://okotokspizza-wp.local/wp-admin/upload.php" class="wp-first-item">Library</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/media-new.php">Add New</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" id="menu-pages">
+	<a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=page" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-page"><br></div><div class="wp-menu-name">Pages</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Pages</li><li class="wp-first-item"><a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=page" class="wp-first-item">All Pages</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/post-new.php?post_type=page">Add New</a></li></ul></li>
+	<li class="wp-not-current-submenu menu-top menu-icon-comments menu-top-last" id="menu-comments">
+	<a href="http://okotokspizza-wp.local/wp-admin/edit-comments.php" class="wp-not-current-submenu menu-top menu-icon-comments menu-top-last"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-comments"><br></div><div class="wp-menu-name">Comments <span class="awaiting-mod count-0"><span class="pending-count">0</span></span></div></a></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-icon-appearance menu-top-first" id="menu-appearance">
+	<a href="http://okotokspizza-wp.local/wp-admin/themes.php" class="wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-icon-appearance menu-top-first" aria-haspopup="false"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-appearance"><br></div><div class="wp-menu-name">Appearance</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Appearance</li><li class="wp-first-item"><a href="http://okotokspizza-wp.local/wp-admin/themes.php" class="wp-first-item">Themes</a></li><li class="hide-if-no-customize"><a href="http://okotokspizza-wp.local/wp-admin/customize.php?return=%2Fwp-admin%2Ftheme-editor.php" class="hide-if-no-customize">Customize</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/widgets.php">Widgets</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/nav-menus.php">Menus</a></li><li class="current"><a href="http://okotokspizza-wp.local/wp-admin/theme-editor.php" class="current" aria-current="page">Editor</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" id="menu-plugins">
+	<a href="http://okotokspizza-wp.local/wp-admin/plugins.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-plugins"><br></div><div class="wp-menu-name">Plugins <span class="update-plugins count-0"><span class="plugin-count">0</span></span></div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Plugins <span class="update-plugins count-0"><span class="plugin-count">0</span></span></li><li class="wp-first-item"><a href="http://okotokspizza-wp.local/wp-admin/plugins.php" class="wp-first-item">Installed Plugins</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/plugin-install.php">Add New</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/plugin-editor.php">Editor</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" id="menu-users">
+	<a href="http://okotokspizza-wp.local/wp-admin/users.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-users"><br></div><div class="wp-menu-name">Users</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Users</li><li class="wp-first-item"><a href="http://okotokspizza-wp.local/wp-admin/users.php" class="wp-first-item">All Users</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/user-new.php">Add New</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/profile.php">Your Profile</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" id="menu-tools">
+	<a href="http://okotokspizza-wp.local/wp-admin/tools.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-tools"><br></div><div class="wp-menu-name">Tools</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Tools</li><li class="wp-first-item"><a href="http://okotokspizza-wp.local/wp-admin/tools.php" class="wp-first-item">Available Tools</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/import.php">Import</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/export.php">Export</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/tools.php?page=export_personal_data">Export Personal Data</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/tools.php?page=remove_personal_data">Erase Personal Data</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" id="menu-settings">
+	<a href="http://okotokspizza-wp.local/wp-admin/options-general.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-settings"><br></div><div class="wp-menu-name">Settings </div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Settings </li><li class="wp-first-item"><a href="http://okotokspizza-wp.local/wp-admin/options-general.php" class="wp-first-item">General</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/options-writing.php">Writing</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/options-reading.php">Reading</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/options-discussion.php">Discussion</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/options-media.php">Media</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/options-permalink.php">Permalinks</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/privacy.php">Privacy </a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-wppizza menu-top-first menu-top-last" id="menu-posts-wppizza">
+	<a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=wppizza" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-wppizza menu-top-first menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before"><img src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/pizza_16.png" alt=""></div><div class="wp-menu-name">WPPizza</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">WPPizza</li><li class="wp-first-item"><a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=wppizza" class="wp-first-item">All Menu Items</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/post-new.php?post_type=wppizza">Add New</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit-tags.php?taxonomy=wppizza_menu&amp;post_type=wppizza">Categories</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=wppizza&amp;page=settings">· Settings</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=wppizza&amp;page=order_settings">· Order Settings</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=wppizza&amp;page=order_form">· Order Form</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=wppizza&amp;page=openingtimes">· Opening Times</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=wppizza&amp;page=gateways">· Gateways</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=wppizza&amp;page=meal_sizes">· Meal Sizes</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=wppizza&amp;page=additives">· Additives</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=wppizza&amp;page=layout">· Layout</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=wppizza&amp;page=localization">· Localization</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=wppizza&amp;page=orderhistory">· Order History</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=wppizza&amp;page=templates">· Templates</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=wppizza&amp;page=reports">· Reports</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=wppizza&amp;page=customers">· Customers</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=wppizza&amp;page=access_rights">· Access Rights</a></li><li><a href="http://okotokspizza-wp.local/wp-admin/edit.php?post_type=wppizza&amp;page=tools">· Tools</a></li></ul></li><li id="collapse-menu" class="hide-if-no-js"><button type="button" id="collapse-button" aria-label="Collapse Main menu" aria-expanded="true"><span class="collapse-button-icon" aria-hidden="true"></span><span class="collapse-button-label">Collapse menu</span></button></li></ul>
+</div>
+</div>
+<div id="wpcontent">
+
+		<div id="wpadminbar" class="">
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar" tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-menu-toggle"><a class="ab-item" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php#" aria-expanded="false"><span class="ab-icon"></span><span class="screen-reader-text">Menu</span></a>		</li>
+		<li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://okotokspizza-wp.local/wp-admin/about.php"><span class="ab-icon"></span><span class="screen-reader-text">About WordPress</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+		<li id="wp-admin-bar-about"><a class="ab-item" href="http://okotokspizza-wp.local/wp-admin/about.php">About WordPress</a>		</li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-wporg"><a class="ab-item" href="https://wordpress.org/">WordPress.org</a>		</li>
+		<li id="wp-admin-bar-documentation"><a class="ab-item" href="https://codex.wordpress.org/">Documentation</a>		</li>
+		<li id="wp-admin-bar-support-forums"><a class="ab-item" href="https://wordpress.org/support/">Support Forums</a>		</li>
+		<li id="wp-admin-bar-feedback"><a class="ab-item" href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://okotokspizza-wp.local/">okotokspizza-wp</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-view-site"><a class="ab-item" href="http://okotokspizza-wp.local/">Visit Site</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-comments"><a class="ab-item" href="http://okotokspizza-wp.local/wp-admin/edit-comments.php"><span class="ab-icon"></span><span class="ab-label awaiting-mod pending-count count-0" aria-hidden="true">0</span><span class="screen-reader-text">0 comments awaiting moderation</span></a>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://okotokspizza-wp.local/wp-admin/post-new.php"><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post"><a class="ab-item" href="http://okotokspizza-wp.local/wp-admin/post-new.php">Post</a>		</li>
+		<li id="wp-admin-bar-new-media"><a class="ab-item" href="http://okotokspizza-wp.local/wp-admin/media-new.php">Media</a>		</li>
+		<li id="wp-admin-bar-new-page"><a class="ab-item" href="http://okotokspizza-wp.local/wp-admin/post-new.php?post_type=page">Page</a>		</li>
+		<li id="wp-admin-bar-new-wppizza"><a class="ab-item" href="http://okotokspizza-wp.local/wp-admin/post-new.php?post_type=wppizza">WPPizza Menu Item</a>		</li>
+		<li id="wp-admin-bar-new-user"><a class="ab-item" href="http://okotokspizza-wp.local/wp-admin/user-new.php">User</a>		</li></ul></div>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" aria-haspopup="true" href="http://okotokspizza-wp.local/wp-admin/profile.php">Howdy, <span class="display-name">admin</span><img alt="" src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/97736f3891aff50e6b88ed37b956a03c.png" srcset="http://0.gravatar.com/avatar/97736f3891aff50e6b88ed37b956a03c?s=52&amp;d=mm&amp;r=g 2x" class="avatar avatar-26 photo" height="26" width="26"></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
+		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/profile.php"><img alt="" src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/97736f3891aff50e6b88ed37b956a03c(1).png" srcset="http://0.gravatar.com/avatar/97736f3891aff50e6b88ed37b956a03c?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64"><span class="display-name">admin</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile"><a class="ab-item" href="http://okotokspizza-wp.local/wp-admin/profile.php">Edit My Profile</a>		</li>
+		<li id="wp-admin-bar-logout"><a class="ab-item" href="http://okotokspizza-wp.local/wp-login.php?action=logout&amp;_wpnonce=fc81f68019">Log Out</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://okotokspizza-wp.local/wp-login.php?action=logout&amp;_wpnonce=fc81f68019">Log Out</a>
+					</div>
+
+		
+<div id="wpbody" role="main">
+
+<div id="wpbody-content" aria-label="Main content" tabindex="0">
+		<div id="screen-meta" class="metabox-prefs">
+
+			<div id="contextual-help-wrap" class="hidden" tabindex="-1" aria-label="Contextual Help Tab">
+				<div id="contextual-help-back"></div>
+				<div id="contextual-help-columns">
+					<div class="contextual-help-tabs">
+						<ul>
+						
+							<li id="tab-link-overview" class="active">
+								<a href="http://okotokspizza-wp.local/wp-admin/theme-editor.php#tab-panel-overview" aria-controls="tab-panel-overview">
+									Overview								</a>
+							</li>
+												</ul>
+					</div>
+
+										<div class="contextual-help-sidebar">
+						<p><strong>For more information:</strong></p><p><a href="https://codex.wordpress.org/Theme_Development">Documentation on Theme Development</a></p><p><a href="https://codex.wordpress.org/Using_Themes">Documentation on Using Themes</a></p><p><a href="https://codex.wordpress.org/Editing_Files">Documentation on Editing Files</a></p><p><a href="https://codex.wordpress.org/Template_Tags">Documentation on Template Tags</a></p><p><a href="https://wordpress.org/support/">Support Forums</a></p>					</div>
+					
+					<div class="contextual-help-tabs-wrap">
+						
+							<div id="tab-panel-overview" class="help-tab-content active">
+								<p>You can use the Theme Editor to edit the individual CSS and PHP files which make up your theme.</p><p>Begin by choosing a theme to edit from the dropdown menu and clicking the Select button. A list then appears of the theme’s template files. Clicking once on any file name causes the file to appear in the large Editor box.</p><p>For PHP files, you can use the Documentation dropdown to select from functions recognized in that file. Look Up takes you to a web page with reference material about that particular function.</p><p id="editor-keyboard-trap-help-1">When using a keyboard to navigate:</p><ul><li id="editor-keyboard-trap-help-2">In the editing area, the Tab key enters a tab character.</li><li id="editor-keyboard-trap-help-3">To move away from this area, press the Esc key followed by the Tab key.</li><li id="editor-keyboard-trap-help-4">Screen reader users: when in forms mode, you may need to press the Esc key twice.</li></ul><p>After typing in your edits, click Update File.</p><p><strong>Advice:</strong> think very carefully about your site crashing if you are live-editing the theme currently in use.</p><p>Upgrading to a newer version of the same theme will override changes made here. To avoid this, consider creating a <a href="https://codex.wordpress.org/Child_Themes">child theme</a> instead.</p>							</div>
+											</div>
+				</div>
+			</div>
+				</div>
+				<div id="screen-meta-links">
+					<div id="contextual-help-link-wrap" class="hide-if-no-js screen-meta-toggle">
+			<button type="button" id="contextual-help-link" class="button show-settings" aria-controls="contextual-help-wrap" aria-expanded="false">Help</button>
+			</div>
+				</div>
+		<div class="wrap">
+<h1>Edit Themes</h1><div id="wppizza_admin_notice_install" class="notice notice-success wppizza_admin_notice" style="padding:20px;"><b>WPPizza Installed. Thank you. </b><br><br><br><b>Quick start:.</b><br><b>A) Go to "Appearance -&gt; Widget" and put the "WPPizza  widget" - setting type to "cart" - into a sidebar.</b><br><b>B) Add the created WPPizza pages to your menu by going to "Appearance -&gt; Menu" (Suggestion: use "Our Menu" as parent page and add all other WPPizza created pages as children of it)</b><br><b>C) Go to "Settings -&gt; General" and ensure your timezone setting is correct</b><br><b>D) Go to "WPPizza -&gt; Opening Times" and edit as appropriate.</b><br><br><b>For more details please make sure to read the <a href="http://docs.wp-pizza.com/getting-started/?section=setup" target="_blank">"Installation Instructions"</a> and <a href="http://docs.wp-pizza.com/faqs/" target="_blank">"FAQ"</a></b><br><br><br><a href="javascript:void(0);" onclick="wppizza_dismiss_notice(&#39;install&#39;); return false;" class="button-primary">dismiss</a></div><div id="message" class="notice-info notice">
+		<p><strong>Did you know?</strong></p>
+		<p>
+			There’s no need to change your CSS here — you can edit and live preview CSS changes in the <a href="http://okotokspizza-wp.local/wp-admin/customize.php?autofocus%5Bsection%5D=custom_css">built-in CSS editor</a>.		</p>
+	</div>
+
+	
+
+<div class="fileedit-sub">
+<div class="alignleft">
+<h2>okotokspizza-wp: Stylesheet <span>(style.css)</span></h2>
+</div>
+<div class="alignright">
+	<form action="http://okotokspizza-wp.local/wp-admin/theme-editor.php" method="get">
+		<strong><label for="theme">Select theme to edit: </label></strong>
+		<select name="theme" id="theme">
+
+	<option value="okotokspizza-wp" selected="selected">okotokspizza-wp</option>
+	<option value="twentynineteen">Twenty Nineteen</option>
+	<option value="twentyseventeen">Twenty Seventeen</option>
+	<option value="twentysixteen">Twenty Sixteen</option>		</select>
+		<input type="submit" name="Submit" id="Submit" class="button" value="Select">	</form>
+</div>
+<br class="clear">
+</div>
+<div id="templateside">
+	<h2 id="theme-files-label">Theme Files</h2>
+	<ul role="tree" aria-labelledby="theme-files-label">
+				<li role="treeitem" tabindex="-1" aria-expanded="true" aria-level="1" aria-posinset="1" aria-setsize="1">
+			<ul role="group">
+						<li role="none" class="current-file">
+			<a role="treeitem" tabindex="0" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=style.css&amp;theme=okotokspizza-wp" aria-level="2" aria-setsize="1" aria-posinset="14" class="">
+				<span class="notice notice-info">Stylesheet<br><span class="nonessential">(style.css)</span></span>			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=functions.php&amp;theme=okotokspizza-wp" aria-level="2" aria-setsize="2" aria-posinset="14" class="">
+				Theme Functions<br><span class="nonessential">(functions.php)</span>			</a>
+		</li>
+					<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="2" aria-setsize="14" aria-posinset="3">
+				<span class="folder-label">menu-ordering-reservations <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">			<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="3" aria-setsize="6" aria-posinset="1">
+				<span class="folder-label">css <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fcss%2Fpublic-style.css&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="1" aria-posinset="3">
+				public-style.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fcss%2Fstyle-website.css&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="2" aria-posinset="3">
+				style-website.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fcss%2Fstyle.css&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="3" aria-posinset="3">
+				style.css			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="3" aria-setsize="6" aria-posinset="2">
+				<span class="folder-label">js <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fjs%2Fadmin-customize-button.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="1" aria-posinset="4">
+				admin-customize-button.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fjs%2Fclipboard.min.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="2" aria-posinset="4">
+				clipboard.min.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fjs%2Ffooter.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="3" aria-posinset="4">
+				footer.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fjs%2Fwp-editor-glf-media-button.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="4" aria-posinset="4">
+				wp-editor-glf-media-button.js			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="3" aria-setsize="6" aria-posinset="3">
+				<span class="folder-label">includes <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fincludes%2Fadmin.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="1" aria-posinset="10">
+				admin.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fincludes%2Fclass-glf-utils.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="2" aria-posinset="10">
+				class-glf-utils.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fincludes%2Fclass-glf-widget.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="3" aria-posinset="10">
+				class-glf-widget.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fincludes%2Fcustomize-button.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="4" aria-posinset="10">
+				customize-button.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fincludes%2Fextras.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="5" aria-posinset="10">
+				extras.php			</a>
+		</li>
+					<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="4" aria-setsize="10" aria-posinset="6">
+				<span class="folder-label">help <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">			<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="5" aria-setsize="1" aria-posinset="1">
+				<span class="folder-label">publishing <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fincludes%2Fhelp%2Fpublishing%2Fcustomize.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="1" aria-posinset="4">
+				customize.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fincludes%2Fhelp%2Fpublishing%2Fnavigation.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="2" aria-posinset="4">
+				navigation.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fincludes%2Fhelp%2Fpublishing%2Fpages.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="3" aria-posinset="4">
+				pages.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fincludes%2Fhelp%2Fpublishing%2Fwidget.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="4" aria-posinset="4">
+				widget.php			</a>
+		</li>
+		</ul>
+			</li>
+			</ul>
+			</li>
+					<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fincludes%2Fmedia-button.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="7" aria-posinset="10">
+				media-button.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fincludes%2Foptions.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="8" aria-posinset="10">
+				options.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fincludes%2Fpartner.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="9" aria-posinset="10">
+				partner.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Fincludes%2Fpublishing.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="10" aria-posinset="10">
+				publishing.php			</a>
+		</li>
+		</ul>
+			</li>
+					<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Findex.php&amp;theme=okotokspizza-wp" aria-level="3" aria-setsize="4" aria-posinset="6">
+				index.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Frestaurant-system.php&amp;theme=okotokspizza-wp" aria-level="3" aria-setsize="5" aria-posinset="6">
+				restaurant-system.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=menu-ordering-reservations%2Freadme.txt&amp;theme=okotokspizza-wp" aria-level="3" aria-setsize="6" aria-posinset="6">
+				readme.txt			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="2" aria-setsize="14" aria-posinset="4">
+				<span class="folder-label">wordpress-okotoksw7d4 <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wordpress-okotoksw7d4%2Fstyle.css&amp;theme=okotokspizza-wp" aria-level="3" aria-setsize="1" aria-posinset="8">
+				style.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wordpress-okotoksw7d4%2FGulpfile.js&amp;theme=okotokspizza-wp" aria-level="3" aria-setsize="2" aria-posinset="8">
+				Gulpfile.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wordpress-okotoksw7d4%2Fpackage.json&amp;theme=okotokspizza-wp" aria-level="3" aria-setsize="3" aria-posinset="8">
+				package.json			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wordpress-okotoksw7d4%2Ffooter.php&amp;theme=okotokspizza-wp" aria-level="3" aria-setsize="4" aria-posinset="8">
+				footer.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wordpress-okotoksw7d4%2Ffunctions.php&amp;theme=okotokspizza-wp" aria-level="3" aria-setsize="5" aria-posinset="8">
+				functions.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wordpress-okotoksw7d4%2Fheader.php&amp;theme=okotokspizza-wp" aria-level="3" aria-setsize="6" aria-posinset="8">
+				header.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wordpress-okotoksw7d4%2Findex.php&amp;theme=okotokspizza-wp" aria-level="3" aria-setsize="7" aria-posinset="8">
+				index.php			</a>
+		</li>
+					<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="3" aria-setsize="8" aria-posinset="8">
+				<span class="folder-label">scss <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wordpress-okotoksw7d4%2Fscss%2Fcomments.scss&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="1" aria-posinset="2">
+				comments.scss			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wordpress-okotoksw7d4%2Fscss%2Fstyle.scss&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="2" aria-posinset="2">
+				style.scss			</a>
+		</li>
+		</ul>
+			</li>
+			</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="2" aria-setsize="14" aria-posinset="5">
+				<span class="folder-label">wppizza <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">			<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="3" aria-setsize="14" aria-posinset="1">
+				<span class="folder-label">css <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fcss%2Fstyles-admin.css&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="1" aria-posinset="10">
+				styles-admin.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fcss%2Fwppizza-chosen.css&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="2" aria-posinset="10">
+				wppizza-chosen.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fcss%2Fwppizza-chosen.min.css&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="3" aria-posinset="10">
+				wppizza-chosen.min.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fcss%2Fwppizza.css&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="4" aria-posinset="10">
+				wppizza.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fcss%2Fwppizza.default.css&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="5" aria-posinset="10">
+				wppizza.default.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fcss%2Fwppizza.prettyphoto.css&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="6" aria-posinset="10">
+				wppizza.prettyphoto.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fcss%2Fwppizza.responsive.css&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="7" aria-posinset="10">
+				wppizza.responsive.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fcss%2Fwppizza.rtl.css&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="8" aria-posinset="10">
+				wppizza.rtl.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fcss%2Fwppizza.source.css&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="9" aria-posinset="10">
+				wppizza.source.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fcss%2Fwppizza.grid.css.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="10" aria-posinset="10">
+				wppizza.grid.css.php			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="3" aria-setsize="14" aria-posinset="2">
+				<span class="folder-label">templates <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">			<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="4" aria-setsize="3" aria-posinset="1">
+				<span class="folder-label">css <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fcss%2Fwppizza.custom.css&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="1" aria-posinset="1">
+				wppizza.custom.css			</a>
+		</li>
+		</ul>
+			</li>
+					<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Ffunctions.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="2" aria-posinset="3">
+				functions.php			</a>
+		</li>
+					<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="4" aria-setsize="3" aria-posinset="3">
+				<span class="folder-label">markup <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">			<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="5" aria-setsize="7" aria-posinset="1">
+				<span class="folder-label">cart <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fcart%2Fcart.checkout_button.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="1" aria-posinset="8">
+				cart.checkout_button.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fcart%2Fcart.container.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="2" aria-posinset="8">
+				cart.container.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fcart%2Fcart.empty.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="3" aria-posinset="8">
+				cart.empty.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fcart%2Fcart.empty_cart_button.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="4" aria-posinset="8">
+				cart.empty_cart_button.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fcart%2Fcart.minimum_order.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="5" aria-posinset="8">
+				cart.minimum_order.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fcart%2Fcart.pickup_note.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="6" aria-posinset="8">
+				cart.pickup_note.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fcart%2Fcart.shopclosed.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="7" aria-posinset="8">
+				cart.shopclosed.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fcart%2Fminicart.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="8" aria-posinset="8">
+				minicart.php			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="5" aria-setsize="7" aria-posinset="2">
+				<span class="folder-label">global <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fglobal%2Fadditives.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="1" aria-posinset="14">
+				additives.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fglobal%2Fformfields.inputs.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="2" aria-posinset="14">
+				formfields.inputs.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fglobal%2Fformfields.values.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="3" aria-posinset="14">
+				formfields.values.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fglobal%2Flogin.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="4" aria-posinset="14">
+				login.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fglobal%2Fnavigation.dropdown.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="5" aria-posinset="14">
+				navigation.dropdown.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fglobal%2Fnavigation.list.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="6" aria-posinset="14">
+				navigation.list.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fglobal%2Fopeningtimes.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="7" aria-posinset="14">
+				openingtimes.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fglobal%2Forderinfo.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="8" aria-posinset="14">
+				orderinfo.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fglobal%2Fpages.pickup_note.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="9" aria-posinset="14">
+				pages.pickup_note.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fglobal%2Fpickup_choice.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="10" aria-posinset="14">
+				pickup_choice.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fglobal%2Fprofile.register.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="11" aria-posinset="14">
+				profile.register.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fglobal%2Fprofile.update.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="12" aria-posinset="14">
+				profile.update.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fglobal%2Fsearch.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="13" aria-posinset="14">
+				search.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fglobal%2Ftotals.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="14" aria-posinset="14">
+				totals.php			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="5" aria-setsize="7" aria-posinset="3">
+				<span class="folder-label">loop <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Floop%2Fadditives.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="1" aria-posinset="11">
+				additives.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Floop%2Fheader.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="2" aria-posinset="11">
+				header.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Floop%2Fno_results.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="3" aria-posinset="11">
+				no_results.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Floop%2Fpagination.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="4" aria-posinset="11">
+				pagination.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Floop%2Fposts.additives.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="5" aria-posinset="11">
+				posts.additives.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Floop%2Fposts.content.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="6" aria-posinset="11">
+				posts.content.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Floop%2Fposts.permalink.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="7" aria-posinset="11">
+				posts.permalink.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Floop%2Fposts.prices.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="8" aria-posinset="11">
+				posts.prices.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Floop%2Fposts.thumbnail.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="9" aria-posinset="11">
+				posts.thumbnail.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Floop%2Fposts.title.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="10" aria-posinset="11">
+				posts.title.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Floop%2Ftheme-wrapper.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="11" aria-posinset="11">
+				theme-wrapper.php			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="5" aria-setsize="7" aria-posinset="4">
+				<span class="folder-label">order <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Forder%2Fitemised.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="1" aria-posinset="4">
+				itemised.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Forder%2Fpayment_details.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="2" aria-posinset="4">
+				payment_details.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Forder%2Fsummary.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="3" aria-posinset="4">
+				summary.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Forder%2Ftransaction_details.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="4" aria-posinset="4">
+				transaction_details.php			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="5" aria-setsize="7" aria-posinset="5">
+				<span class="folder-label">pages <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fpages%2Fpage.admin-order-history.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="1" aria-posinset="12">
+				page.admin-order-history.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fpages%2Fpage.cancelled.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="2" aria-posinset="12">
+				page.cancelled.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fpages%2Fpage.confirm-order.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="3" aria-posinset="12">
+				page.confirm-order.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fpages%2Fpage.confirmed.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="4" aria-posinset="12">
+				page.confirmed.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fpages%2Fpage.order.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="5" aria-posinset="12">
+				page.order.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fpages%2Fpage.payment-pending.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="6" aria-posinset="12">
+				page.payment-pending.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fpages%2Fpage.processing.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="7" aria-posinset="12">
+				page.processing.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fpages%2Fpage.purchase-history.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="8" aria-posinset="12">
+				page.purchase-history.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fpages%2Fpage.refunded.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="9" aria-posinset="12">
+				page.refunded.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fpages%2Fpage.rejected.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="10" aria-posinset="12">
+				page.rejected.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fpages%2Fpage.thankyou.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="11" aria-posinset="12">
+				page.thankyou.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fpages%2Fpage.unconfirmed.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="12" aria-posinset="12">
+				page.unconfirmed.php			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="5" aria-setsize="7" aria-posinset="6">
+				<span class="folder-label">search <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fsearch%2Fsearch-readme.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="1" aria-posinset="1">
+				search-readme.php			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="5" aria-setsize="7" aria-posinset="7">
+				<span class="folder-label">single <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Ftemplates%2Fmarkup%2Fsingle%2Fsingle.php&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="1" aria-posinset="1">
+				single.php			</a>
+		</li>
+		</ul>
+			</li>
+			</ul>
+			</li>
+			</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="3" aria-setsize="14" aria-posinset="3">
+				<span class="folder-label">add-ons <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fadd-ons%2Findex.html&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="1" aria-posinset="4">
+				index.html			</a>
+		</li>
+					<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="4" aria-setsize="4" aria-posinset="2">
+				<span class="folder-label">gateway-development <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">			<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="5" aria-setsize="1" aria-posinset="1">
+				<span class="folder-label">hosted-payment-pages-dummy <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fadd-ons%2Fgateway-development%2Fhosted-payment-pages-dummy%2FREADME.txt&amp;theme=okotokspizza-wp" aria-level="6" aria-setsize="1" aria-posinset="1">
+				README.txt			</a>
+		</li>
+		</ul>
+			</li>
+			</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="4" aria-setsize="4" aria-posinset="3">
+				<span class="folder-label">plugin-development <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fadd-ons%2Fplugin-development%2FTODO.txt&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="1" aria-posinset="1">
+				TODO.txt			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="4" aria-setsize="4" aria-posinset="4">
+				<span class="folder-label">theme-development <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fadd-ons%2Ftheme-development%2FTODO.txt&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="1" aria-posinset="1">
+				TODO.txt			</a>
+		</li>
+		</ul>
+			</li>
+			</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="3" aria-setsize="14" aria-posinset="4">
+				<span class="folder-label">changelogs <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fchangelogs%2Findex.html&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="1" aria-posinset="7">
+				index.html			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fchangelogs%2Fchangelog-1.0-2.9.4.6.txt&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="2" aria-posinset="7">
+				changelog-1.0-2.9.4.6.txt			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fchangelogs%2Fchangelog-2.10.txt&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="3" aria-posinset="7">
+				changelog-2.10.txt			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fchangelogs%2Fchangelog-2.11.txt&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="4" aria-posinset="7">
+				changelog-2.11.txt			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fchangelogs%2Fchangelog-2.12-2.15.txt&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="5" aria-posinset="7">
+				changelog-2.12-2.15.txt			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fchangelogs%2Fchangelog-2.16.txt&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="6" aria-posinset="7">
+				changelog-2.16.txt			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fchangelogs%2Fchangelog-3.0-3.1.7.txt&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="7" aria-posinset="7">
+				changelog-3.0-3.1.7.txt			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="3" aria-setsize="14" aria-posinset="5">
+				<span class="folder-label">lang <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Flang%2Findex.html&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="1" aria-posinset="2">
+				index.html			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Flang%2Freadme.txt&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="2" aria-posinset="2">
+				readme.txt			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="3" aria-setsize="14" aria-posinset="6">
+				<span class="folder-label">logs <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Flogs%2Findex.html&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="1" aria-posinset="2">
+				index.html			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Flogs%2Freadme.txt&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="2" aria-posinset="2">
+				readme.txt			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="3" aria-setsize="14" aria-posinset="7">
+				<span class="folder-label">js <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fchosen.jquery.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="1" aria-posinset="33">
+				chosen.jquery.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fchosen.jquery.min.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="2" aria-posinset="33">
+				chosen.jquery.min.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fjquery.flot.categories.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="3" aria-posinset="33">
+				jquery.flot.categories.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fjquery.flot.categories.min.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="4" aria-posinset="33">
+				jquery.flot.categories.min.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fjquery.flot.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="5" aria-posinset="33">
+				jquery.flot.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fjquery.flot.min.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="6" aria-posinset="33">
+				jquery.flot.min.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fjquery.prettyPhoto.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="7" aria-posinset="33">
+				jquery.prettyPhoto.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fjquery.ui.timepicker.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="8" aria-posinset="33">
+				jquery.ui.timepicker.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.access_rights.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="9" aria-posinset="33">
+				scripts.admin.access_rights.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.additives.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="10" aria-posinset="33">
+				scripts.admin.additives.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.categories.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="11" aria-posinset="33">
+				scripts.admin.categories.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.common.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="12" aria-posinset="33">
+				scripts.admin.common.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.gateways.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="13" aria-posinset="33">
+				scripts.admin.gateways.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.global.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="14" aria-posinset="33">
+				scripts.admin.global.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.layout.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="15" aria-posinset="33">
+				scripts.admin.layout.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.localization.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="16" aria-posinset="33">
+				scripts.admin.localization.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.meal_sizes.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="17" aria-posinset="33">
+				scripts.admin.meal_sizes.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.menu_items.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="18" aria-posinset="33">
+				scripts.admin.menu_items.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.openingtimes.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="19" aria-posinset="33">
+				scripts.admin.openingtimes.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.order_form.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="20" aria-posinset="33">
+				scripts.admin.order_form.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.order_settings.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="21" aria-posinset="33">
+				scripts.admin.order_settings.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.orderhistory.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="22" aria-posinset="33">
+				scripts.admin.orderhistory.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.reports.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="23" aria-posinset="33">
+				scripts.admin.reports.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.settings.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="24" aria-posinset="33">
+				scripts.admin.settings.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.templates.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="25" aria-posinset="33">
+				scripts.admin.templates.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.tools.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="26" aria-posinset="33">
+				scripts.admin.tools.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.admin.tools.licenses.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="27" aria-posinset="33">
+				scripts.admin.tools.licenses.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.min.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="28" aria-posinset="33">
+				scripts.min.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.orderhistory.min.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="29" aria-posinset="33">
+				scripts.orderhistory.min.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.orderhistory.source.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="30" aria-posinset="33">
+				scripts.orderhistory.source.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fscripts.source.js&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="31" aria-posinset="33">
+				scripts.source.js			</a>
+		</li>
+					<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="4" aria-setsize="33" aria-posinset="32">
+				<span class="folder-label">validate <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fvalidate%2Fadditional-methods.js&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="1" aria-posinset="4">
+				additional-methods.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fvalidate%2Fadditional-methods.min.js&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="2" aria-posinset="4">
+				additional-methods.min.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fvalidate%2Fjquery.validate.js&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="3" aria-posinset="4">
+				jquery.validate.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fvalidate%2Fjquery.validate.min.js&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="4" aria-posinset="4">
+				jquery.validate.min.js			</a>
+		</li>
+		</ul>
+			</li>
+					<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fjs%2Fjquery.prettyPhoto.custom.js.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="33" aria-posinset="33">
+				jquery.prettyPhoto.custom.js.php			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="3" aria-setsize="14" aria-posinset="8">
+				<span class="folder-label">ajax <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fajax%2Fadmin.ajax.wppizza.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="1" aria-posinset="2">
+				admin.ajax.wppizza.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fajax%2Fajax.wppizza.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="2" aria-posinset="2">
+				ajax.wppizza.php			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="3" aria-setsize="14" aria-posinset="9">
+				<span class="folder-label">classes <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">			<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="4" aria-setsize="26" aria-posinset="1">
+				<span class="folder-label">admin <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fadmin%2Fclass.wppizza.admin.helpers.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="1" aria-posinset="7">
+				class.wppizza.admin.helpers.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fadmin%2Fclass.wppizza.admin.uninstall.janitor.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="2" aria-posinset="7">
+				class.wppizza.admin.uninstall.janitor.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fadmin%2Fclass.wppizza.admin_actions.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="3" aria-posinset="7">
+				class.wppizza.admin_actions.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fadmin%2Fclass.wppizza.install_update.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="4" aria-posinset="7">
+				class.wppizza.install_update.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fadmin%2Fclass.wppizza.register_gateways.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="5" aria-posinset="7">
+				class.wppizza.register_gateways.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fadmin%2Fclass.wppizza.user_caps.inc.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="6" aria-posinset="7">
+				class.wppizza.user_caps.inc.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fadmin%2Fclass.wppizza.wp_admin.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="7" aria-posinset="7">
+				class.wppizza.wp_admin.php			</a>
+		</li>
+		</ul>
+			</li>
+					<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.actions.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="2" aria-posinset="26">
+				class.wppizza.actions.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.categories.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="3" aria-posinset="26">
+				class.wppizza.categories.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.cron.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="4" aria-posinset="26">
+				class.wppizza.cron.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.dashboard_widgets.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="5" aria-posinset="26">
+				class.wppizza.dashboard_widgets.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.db.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="6" aria-posinset="26">
+				class.wppizza.db.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.email.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="7" aria-posinset="26">
+				class.wppizza.email.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.filter.orders.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="8" aria-posinset="26">
+				class.wppizza.filter.orders.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.filters.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="9" aria-posinset="26">
+				class.wppizza.filters.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.gateways.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="10" aria-posinset="26">
+				class.wppizza.gateways.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.helpers.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="11" aria-posinset="26">
+				class.wppizza.helpers.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.order.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="12" aria-posinset="26">
+				class.wppizza.order.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.order_execute.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="13" aria-posinset="26">
+				class.wppizza.order_execute.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.register_posttype_taxonomy.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="14" aria-posinset="26">
+				class.wppizza.register_posttype_taxonomy.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.sales_data.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="15" aria-posinset="26">
+				class.wppizza.sales_data.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.scripts_styles.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="16" aria-posinset="26">
+				class.wppizza.scripts_styles.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.sessions.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="17" aria-posinset="26">
+				class.wppizza.sessions.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.user.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="18" aria-posinset="26">
+				class.wppizza.user.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.walkers.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="19" aria-posinset="26">
+				class.wppizza.walkers.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.widgets.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="20" aria-posinset="26">
+				class.wppizza.widgets.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fclass.wppizza.wpml.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="21" aria-posinset="26">
+				class.wppizza.wpml.php			</a>
+		</li>
+					<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="4" aria-setsize="26" aria-posinset="22">
+				<span class="folder-label">gateways <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fgateways%2Fgateway.ccod.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="1" aria-posinset="2">
+				gateway.ccod.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fgateways%2Fgateway.cod.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="2" aria-posinset="2">
+				gateway.cod.php			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="4" aria-setsize="26" aria-posinset="23">
+				<span class="folder-label">markup <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmarkup%2Fadditives.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="1" aria-posinset="14">
+				additives.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmarkup%2Femail_print.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="2" aria-posinset="14">
+				email_print.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmarkup%2Fhiddencart.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="3" aria-posinset="14">
+				hiddencart.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmarkup%2Floop.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="4" aria-posinset="14">
+				loop.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmarkup%2Fmaincart.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="5" aria-posinset="14">
+				maincart.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmarkup%2Fminicart.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="6" aria-posinset="14">
+				minicart.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmarkup%2Fnavigation.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="7" aria-posinset="14">
+				navigation.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmarkup%2Fopeningtimes.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="8" aria-posinset="14">
+				openingtimes.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmarkup%2Forderinfo.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="9" aria-posinset="14">
+				orderinfo.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmarkup%2Fpages.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="10" aria-posinset="14">
+				pages.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmarkup%2Fpickup_choice.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="11" aria-posinset="14">
+				pickup_choice.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmarkup%2Fsearch.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="12" aria-posinset="14">
+				search.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmarkup%2Fshortcodes.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="13" aria-posinset="14">
+				shortcodes.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmarkup%2Ftotals.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="14" aria-posinset="14">
+				totals.php			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="4" aria-setsize="26" aria-posinset="24">
+				<span class="folder-label">modules <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.access_rights.access.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="1" aria-posinset="48">
+				mod.access_rights.access.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.additives.additives.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="2" aria-posinset="48">
+				mod.additives.additives.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.layout.custom_css.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="3" aria-posinset="48">
+				mod.layout.custom_css.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.layout.gateways.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="4" aria-posinset="48">
+				mod.layout.gateways.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.layout.general.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="5" aria-posinset="48">
+				mod.layout.general.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.layout.images.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="6" aria-posinset="48">
+				mod.layout.images.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.layout.items_sorting_category_display.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="7" aria-posinset="48">
+				mod.layout.items_sorting_category_display.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.layout.minicart.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="8" aria-posinset="48">
+				mod.layout.minicart.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.layout.miscellaneous.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="9" aria-posinset="48">
+				mod.layout.miscellaneous.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.layout.openingtimes_format.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="10" aria-posinset="48">
+				mod.layout.openingtimes_format.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.layout.prices_format.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="11" aria-posinset="48">
+				mod.layout.prices_format.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.layout.style.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="12" aria-posinset="48">
+				mod.layout.style.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.localization.common.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="13" aria-posinset="48">
+				mod.localization.common.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.meal_sizes.sizes.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="14" aria-posinset="48">
+				mod.meal_sizes.sizes.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.mixed.sku.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="15" aria-posinset="48">
+				mod.mixed.sku.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.openingtimes.close_shop_now.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="16" aria-posinset="48">
+				mod.openingtimes.close_shop_now.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.openingtimes.closed.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="17" aria-posinset="48">
+				mod.openingtimes.closed.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.openingtimes.custom.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="18" aria-posinset="48">
+				mod.openingtimes.custom.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.openingtimes.standard.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="19" aria-posinset="48">
+				mod.openingtimes.standard.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.order_form.confirmationpage.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="20" aria-posinset="48">
+				mod.order_form.confirmationpage.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.order_form.orderpage.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="21" aria-posinset="48">
+				mod.order_form.orderpage.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.order_settings.delivery.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="22" aria-posinset="48">
+				mod.order_settings.delivery.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.order_settings.discounts.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="23" aria-posinset="48">
+				mod.order_settings.discounts.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.order_settings.emails.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="24" aria-posinset="48">
+				mod.order_settings.emails.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.order_settings.global.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="25" aria-posinset="48">
+				mod.order_settings.global.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.order_settings.order_update.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="26" aria-posinset="48">
+				mod.order_settings.order_update.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.order_settings.pickup.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="27" aria-posinset="48">
+				mod.order_settings.pickup.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.order_settings.repurchase.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="28" aria-posinset="48">
+				mod.order_settings.repurchase.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.order_settings.taxes.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="29" aria-posinset="48">
+				mod.order_settings.taxes.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.orderhistory.orderhistory.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="30" aria-posinset="48">
+				mod.orderhistory.orderhistory.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.settings.general.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="31" aria-posinset="48">
+				mod.settings.general.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.settings.logging.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="32" aria-posinset="48">
+				mod.settings.logging.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.settings.miscellaneous.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="33" aria-posinset="48">
+				mod.settings.miscellaneous.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.settings.multisite.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="34" aria-posinset="48">
+				mod.settings.multisite.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.settings.new_orders_notify.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="35" aria-posinset="48">
+				mod.settings.new_orders_notify.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.settings.orderhistory.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="36" aria-posinset="48">
+				mod.settings.orderhistory.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.settings.permalinks.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="37" aria-posinset="48">
+				mod.settings.permalinks.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.settings.search.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="38" aria-posinset="48">
+				mod.settings.search.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.settings.smtp.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="39" aria-posinset="48">
+				mod.settings.smtp.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.templates.templates.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="40" aria-posinset="48">
+				mod.templates.templates.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.tools.licenses.init.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="41" aria-posinset="48">
+				mod.tools.licenses.init.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.tools.maintenance.ordertable.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="42" aria-posinset="48">
+				mod.tools.maintenance.ordertable.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.tools.miscellaneous.various.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="43" aria-posinset="48">
+				mod.tools.miscellaneous.various.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.tools.privacy.erase.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="44" aria-posinset="48">
+				mod.tools.privacy.erase.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.tools.privacy.general.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="45" aria-posinset="48">
+				mod.tools.privacy.general.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.tools.sysinfo.overview.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="46" aria-posinset="48">
+				mod.tools.sysinfo.overview.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.tools.sysinfo.phpinfo.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="47" aria-posinset="48">
+				mod.tools.sysinfo.phpinfo.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fmodules%2Fmod.tools.sysinfo.wppizza_vars.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="48" aria-posinset="48">
+				mod.tools.sysinfo.wppizza_vars.php			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="4" aria-setsize="26" aria-posinset="25">
+				<span class="folder-label">shared <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fshared%2Fwppizza.edd.inc.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="1" aria-posinset="4">
+				wppizza.edd.inc.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fshared%2Fwppizza.edd.plugin.updater.1.6.5.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="2" aria-posinset="4">
+				wppizza.edd.plugin.updater.1.6.5.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fshared%2Fwppizza.edd.plugin.updater.1.6.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="3" aria-posinset="4">
+				wppizza.edd.plugin.updater.1.6.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fshared%2Fwppizza.edd.plugin.updater.latest.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="4" aria-posinset="4">
+				wppizza.edd.plugin.updater.latest.php			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="4" aria-setsize="26" aria-posinset="26">
+				<span class="folder-label">subpages <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fsubpages%2Fsubpage.access_rights.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="1" aria-posinset="17">
+				subpage.access_rights.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fsubpages%2Fsubpage.additives.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="2" aria-posinset="17">
+				subpage.additives.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fsubpages%2Fsubpage.categories.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="3" aria-posinset="17">
+				subpage.categories.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fsubpages%2Fsubpage.customers.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="4" aria-posinset="17">
+				subpage.customers.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fsubpages%2Fsubpage.gateways.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="5" aria-posinset="17">
+				subpage.gateways.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fsubpages%2Fsubpage.layout.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="6" aria-posinset="17">
+				subpage.layout.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fsubpages%2Fsubpage.localization.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="7" aria-posinset="17">
+				subpage.localization.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fsubpages%2Fsubpage.meal_sizes.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="8" aria-posinset="17">
+				subpage.meal_sizes.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fsubpages%2Fsubpage.openingtimes.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="9" aria-posinset="17">
+				subpage.openingtimes.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fsubpages%2Fsubpage.order_form.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="10" aria-posinset="17">
+				subpage.order_form.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fsubpages%2Fsubpage.order_history.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="11" aria-posinset="17">
+				subpage.order_history.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fsubpages%2Fsubpage.order_settings.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="12" aria-posinset="17">
+				subpage.order_settings.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fsubpages%2Fsubpage.posts.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="13" aria-posinset="17">
+				subpage.posts.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fsubpages%2Fsubpage.reports.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="14" aria-posinset="17">
+				subpage.reports.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fsubpages%2Fsubpage.settings.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="15" aria-posinset="17">
+				subpage.settings.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fsubpages%2Fsubpage.templates.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="16" aria-posinset="17">
+				subpage.templates.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fclasses%2Fsubpages%2Fsubpage.tools.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="17" aria-posinset="17">
+				subpage.tools.php			</a>
+		</li>
+		</ul>
+			</li>
+			</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="3" aria-setsize="14" aria-posinset="10">
+				<span class="folder-label">includes <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fglobal.constants.inc.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="1" aria-posinset="12">
+				global.constants.inc.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fglobal.db.helpers.inc.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="2" aria-posinset="12">
+				global.db.helpers.inc.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fglobal.formatting.functions.inc.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="3" aria-posinset="12">
+				global.formatting.functions.inc.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fglobal.gateway.helpers.inc.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="4" aria-posinset="12">
+				global.gateway.helpers.inc.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fglobal.helper.functions.inc.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="5" aria-posinset="12">
+				global.helper.functions.inc.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fglobal.plugin_dev.helpers.inc.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="6" aria-posinset="12">
+				global.plugin_dev.helpers.inc.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fglobal.static.functions.inc.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="7" aria-posinset="12">
+				global.static.functions.inc.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fglobal.template.functions.inc.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="8" aria-posinset="12">
+				global.template.functions.inc.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fglobal.validation.functions.inc.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="9" aria-posinset="12">
+				global.validation.functions.inc.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fmarkup.order.plaintext.inc.php&amp;theme=okotokspizza-wp" aria-level="4" aria-setsize="10" aria-posinset="12">
+				markup.order.plaintext.inc.php			</a>
+		</li>
+					<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="4" aria-setsize="12" aria-posinset="11">
+				<span class="folder-label">setup <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fsetup%2Frequired.files.inc.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="1" aria-posinset="1">
+				required.files.inc.php			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="4" aria-setsize="12" aria-posinset="12">
+				<span class="folder-label">upgrades <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fupgrades%2Finstall.default_items_and_categories.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="1" aria-posinset="7">
+				install.default_items_and_categories.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fupgrades%2Finstall.default_pages.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="2" aria-posinset="7">
+				install.default_pages.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fupgrades%2Fupdate.options.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="3" aria-posinset="7">
+				update.options.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fupgrades%2Fupdate.table_schema.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="4" aria-posinset="7">
+				update.table_schema.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fupgrades%2Fupdate.table_schema_meta.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="5" aria-posinset="7">
+				update.table_schema_meta.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fupgrades%2Fv2.to.v3.update.options.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="6" aria-posinset="7">
+				v2.to.v3.update.options.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fincludes%2Fupgrades%2Fv2.to.v3.update.table_values.php&amp;theme=okotokspizza-wp" aria-level="5" aria-setsize="7" aria-posinset="7">
+				v2.to.v3.update.table_values.php			</a>
+		</li>
+		</ul>
+			</li>
+			</ul>
+			</li>
+					<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Funinstall.php&amp;theme=okotokspizza-wp" aria-level="3" aria-setsize="11" aria-posinset="14">
+				uninstall.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Fwppizza.php&amp;theme=okotokspizza-wp" aria-level="3" aria-setsize="12" aria-posinset="14">
+				wppizza.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Flicense.txt&amp;theme=okotokspizza-wp" aria-level="3" aria-setsize="13" aria-posinset="14">
+				license.txt			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=wppizza%2Freadme.txt&amp;theme=okotokspizza-wp" aria-level="3" aria-setsize="14" aria-posinset="14">
+				readme.txt			</a>
+		</li>
+		</ul>
+			</li>
+					<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=Gulpfile.js&amp;theme=okotokspizza-wp" aria-level="2" aria-setsize="6" aria-posinset="14" class="">
+				Gulpfile.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=package-lock.json&amp;theme=okotokspizza-wp" aria-level="2" aria-setsize="7" aria-posinset="14">
+				package-lock.json			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=package.json&amp;theme=okotokspizza-wp" aria-level="2" aria-setsize="8" aria-posinset="14">
+				package.json			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=aboutus.php&amp;theme=okotokspizza-wp" aria-level="2" aria-setsize="9" aria-posinset="14" class="">
+				aboutus.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=footer.php&amp;theme=okotokspizza-wp" aria-level="2" aria-setsize="10" aria-posinset="14" class="">
+				Theme Footer<br><span class="nonessential">(footer.php)</span>			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=header.php&amp;theme=okotokspizza-wp" aria-level="2" aria-setsize="11" aria-posinset="14" class="">
+				Theme Header<br><span class="nonessential">(header.php)</span>			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=index.php&amp;theme=okotokspizza-wp" aria-level="2" aria-setsize="12" aria-posinset="14" class="">
+				Main Index Template<br><span class="nonessential">(index.php)</span>			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=header.scss&amp;theme=okotokspizza-wp" aria-level="2" aria-setsize="13" aria-posinset="14">
+				header.scss			</a>
+		</li>
+					<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="2" aria-setsize="14" aria-posinset="14">
+				<span class="folder-label">scss <span class="screen-reader-text">folder</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=scss%2Fcomments.scss&amp;theme=okotokspizza-wp" aria-level="3" aria-setsize="1" aria-posinset="2">
+				comments.scss			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://okotokspizza-wp.local/wp-admin/theme-editor.php?file=scss%2Fstyle.scss&amp;theme=okotokspizza-wp" aria-level="3" aria-setsize="2" aria-posinset="2">
+				style.scss			</a>
+		</li>
+		</ul>
+			</li>
+						</ul>
+		</li>
+	</ul>
+</div>
+
+	<form name="template" id="template" action="http://okotokspizza-wp.local/wp-admin/theme-editor.php" method="post">
+		<input type="hidden" id="nonce" name="nonce" value="d7d75bdf0a"><input type="hidden" name="_wp_http_referer" value="/wp-admin/theme-editor.php">		<div>
+			<label for="newcontent" id="theme-plugin-editor-label">Selected file content:</label>
+			<textarea cols="70" rows="30" name="newcontent" id="newcontent" aria-describedby="editor-keyboard-trap-help-1 editor-keyboard-trap-help-2 editor-keyboard-trap-help-3 editor-keyboard-trap-help-4" style="display: none;">* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.column-rule {
+  /* Chrome, Safari, Opera */
+  -webkit-column-count: 5;
+  -webkit-column-gap: 20px;
+  /* Firefox */
+  -moz-column-count: 5;
+  -moz-column-gap: 20px;
+  column-count: 5;
+  column-gap: 20px;
+  column-rule-style: solid;
+  column-rule-color: lightpink;
+  column-count: 5;
+  column-gap: 20px;
+  column-count: 5;
+  column-gap: 20px; }
+
+img {
+  height: 115px;
+  width: 120px; }
+
+header, footer {
+  background-color: #a2112e;
+  width: 100%;
+  padding: 7px;
+  text-align: center;
+  z-index: 90;
+  color: #f3ede1;
+  font-weight: bold;
+  font-size: 30px; }
+
+footer {
+  bottom: 0;
+  background-color: #a2112e; }
+
+header {
+  padding: 1px;
+  margin-left: auto;
+  top: 0; }
+
+#all img, iframe {
+  height: 315px;
+  width: 325px;
+  margin-top: 15px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 10px;
+  padding-left: 50px;
+  padding-bottom: 50px; }
+
+.about-image img {
+  height: 315px;
+  width: 350px;
+  border-radius: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+  align: center;
+  padding-top: -20px;
+  padding-top: 100px; }
+  .about-image img p {
+    text-align: left; }
+
+#logo {
+  text-align: left;
+  position: relative;
+  top: 35px; }
+
+main {
+  background-color: #f3ede1;
+  color: #a2112e;
+  margin: auto;
+  margin-top: -5px;
+  line-height: 1.45;
+  text-align: center;
+  overflow-y: scroll;
+  padding-top: 5px;
+  padding-bottom: -5px; }
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: .10rem 1rem; }
+
+a {
+  color: #f3ede1;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+
+.h3, h3 {
+  font-size: 1.75rem; }
+
+.h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit; }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 180px;
+  margin-left: 180px;
+  margin-top: 50px; }
+
+h1 {
+  color: #a2112e; }
+
+a.hover {
+  color: yellow; }
+
+.pizza-item p {
+  margin-left: 5px;
+  float: none; }
+
+.pizza-item span {
+  display: inline-block; }
+
+.pizza-item div &gt; p {
+  display: inline-block; }
+
+.pricing {
+  font-weight: bold;
+  color: red; }
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; }
+
+p {
+  margin: 0 0 11px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 11px;
+  margin-left: 0px; }
+
+.wppizza-cart {
+    position: relative;
+    margin: 0!important;
+    padding: 2px!important;
+    /* min-height: 20px; */
+    border: 1px solid #CECECE;
+}
+</textarea><div class="CodeMirror cm-s-default CodeMirror-wrap CodeMirror-focused"><div class="CodeMirror-vscrollbar" cm-not-content="true" style="display: block; bottom: 0px;"><div style="min-width: 1px; height: 2842px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 48px; margin-bottom: -17px; border-right-width: 13px; min-height: 2842px; padding-right: 17px; padding-bottom: 0px;"><div style="position: relative; top: 193.6px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style="visibility: hidden;"></div><div class="CodeMirror-code" role="textbox" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true" tabindex="0" aria-multiline="true" aria-labelledby="theme-plugin-editor-label" aria-describedby="editor-keyboard-trap-help-1 editor-keyboard-trap-help-2 editor-keyboard-trap-help-3 editor-keyboard-trap-help-4" style=""><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">12</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-meta">-moz-</span><span class="cm-property">column-gap</span>: <span class="cm-number">20px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">13</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">column-count</span>: <span class="cm-number">5</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">14</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">column-gap</span>: <span class="cm-number">20px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">15</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">column-rule-style</span>: <span class="cm-atom">solid</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">16</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">column-rule-color</span>: <span class="cm-keyword">lightpink</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">17</div><div class="CodeMirror-gutter-elt" style="left: 0px; width: 16px;"><div class="CodeMirror-lint-marker-warning"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property CodeMirror-lint-mark-warning">c</span><span class="cm-property">olumn-count</span>: <span class="cm-number">5</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">18</div><div class="CodeMirror-gutter-elt" style="left: 0px; width: 16px;"><div class="CodeMirror-lint-marker-warning"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property CodeMirror-lint-mark-warning">c</span><span class="cm-property">olumn-gap</span>: <span class="cm-number">20px</span>; }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">19</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">20</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tag">img</span> {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">21</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">height</span>: <span class="cm-number">115px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">22</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">width</span>: <span class="cm-number">120px</span>; }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">23</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">24</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tag">header</span>, <span class="cm-tag">footer</span> {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">25</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">background-color</span>: <span class="cm-atom">#a2112e</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">26</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">width</span>: <span class="cm-number">100%</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">27</div><div class="CodeMirror-gutter-elt" style="left: 0px; width: 16px;"><div class="CodeMirror-lint-marker-warning"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property CodeMirror-lint-mark-warning">p</span><span class="cm-property">adding</span>: <span class="cm-number">7px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">28</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">text-align</span>: <span class="cm-atom">center</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">29</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">z-index</span>: <span class="cm-number">90</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">30</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">color</span>: <span class="cm-atom">#f3ede1</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">31</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">font-weight</span>: <span class="cm-atom">bold</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">32</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">font-size</span>: <span class="cm-number">30px</span>; </span></pre></div><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground" contenteditable="false"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" contenteditable="false" style="left: -48px; width: 48px;"></div><div class="CodeMirror-gutter-wrapper CodeMirror-activeline-gutter" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">33</div><div class="CodeMirror-gutter-elt" style="left: 0px; width: 16px;"><div class="CodeMirror-lint-marker-warning"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property CodeMirror-lint-mark-warning">p</span><span class="cm-property">adding-top</span>: <span class="cm-atom">flex</span>;</span></pre></div><div class="" style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">34</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">35</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">36</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tag">footer</span> {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">37</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">bottom</span>: <span class="cm-number">0</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">38</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">background-color</span>: <span class="cm-atom">#a2112e</span>; }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">39</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">40</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tag">header</span> {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">41</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">padding</span>: <span class="cm-number">1px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">42</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">margin-left</span>: <span class="cm-atom">auto</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">43</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">top</span>: <span class="cm-number">0</span>; }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">44</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">45</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">#all</span> <span class="cm-tag">img</span>, <span class="cm-tag">iframe</span> {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">46</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">height</span>: <span class="cm-number">315px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">47</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">width</span>: <span class="cm-number">325px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">48</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">margin-top</span>: <span class="cm-number">15px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">49</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">border-radius</span>: <span class="cm-number">10px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">50</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">text-align</span>: <span class="cm-atom">center</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">51</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">margin-left</span>: <span class="cm-number">10px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">52</div><div class="CodeMirror-gutter-elt" style="left: 0px; width: 16px;"><div class="CodeMirror-lint-marker-warning"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property CodeMirror-lint-mark-warning">p</span><span class="cm-property">adding-left</span>: <span class="cm-number">50px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">53</div><div class="CodeMirror-gutter-elt" style="left: 0px; width: 16px;"><div class="CodeMirror-lint-marker-warning"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property CodeMirror-lint-mark-warning">p</span><span class="cm-property">adding-bottom</span>: <span class="cm-number">50px</span>; }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">54</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">55</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-qualifier">.about-image</span> <span class="cm-tag">img</span> {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">56</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">height</span>: <span class="cm-number">315px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">57</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">width</span>: <span class="cm-number">350px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">58</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">border-radius</span>: <span class="cm-number">50px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -48px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 16px; width: 23px;">59</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">margin-left</span>: <span class="cm-number">10px</span>;</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 13px; width: 1px; border-bottom: 0px solid transparent; top: 2842px;"></div><div class="CodeMirror-gutters" style="height: 2855px;"><div class="CodeMirror-gutter CodeMirror-lint-markers"></div><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 31px;"></div></div></div></div>
+			<input type="hidden" name="action" value="update">
+			<input type="hidden" name="file" value="style.css">
+			<input type="hidden" name="theme" value="okotokspizza-wp">
+		</div>
+	
+	<div>
+		<div class="editor-notices">
+					</div>
+			<p class="submit">
+			<input type="submit" name="submit" id="submit" class="button button-primary" value="Update File">			<span class="spinner"></span>
+		</p>
+		</div>
+		<script type="text/html" id="tmpl-wp-file-editor-notice">
+		<div class="notice inline notice-{{ data.type || 'info' }} {{ data.alt ? 'notice-alt' : '' }} {{ data.dismissible ? 'is-dismissible' : '' }} {{ data.classes || '' }}">
+			<# if ( 'php_error' === data.code ) { #>
+				<p>
+					Your PHP code changes were rolled back due to an error on line {{ data.line }} of file {{ data.file }}. Please fix and try saving again.				</p>
+				<pre>{{ data.message }}</pre>
+			<# } else if ( 'file_not_writable' === data.code ) { #>
+				<p>You need to make this file writable before you can save your changes. See <a href="https://codex.wordpress.org/Changing_File_Permissions">the Codex</a> for more information.</p>
+			<# } else { #>
+				<p>{{ data.message || data.code }}</p>
+
+				<# if ( 'lint_errors' === data.code ) { #>
+					<p>
+						<# var elementId = 'el-' + String( Math.random() ); #>
+						<input id="{{ elementId }}"  type="checkbox">
+						<label for="{{ elementId }}">Update anyway, even though it might break your site?</label>
+					</p>
+				<# } #>
+			<# } #>
+			<# if ( data.dismissible ) { #>
+				<button type="button" class="notice-dismiss"><span class="screen-reader-text">Dismiss</span></button>
+			<# } #>
+		</div>
+	</script>
+		</form>
+<br class="clear">
+</div>
+
+<div class="clear"></div></div><!-- wpbody-content -->
+<div class="clear"></div></div><!-- wpbody -->
+<div class="clear"></div></div><!-- wpcontent -->
+
+<div id="wpfooter" role="contentinfo">
+		<p id="footer-left" class="alignleft">
+		<span id="footer-thankyou">Thank you for creating with <a href="https://wordpress.org/">WordPress</a>.</span>	</p>
+	<p id="footer-upgrade" class="alignright">
+		Version 5.0.3	</p>
+	<div class="clear"></div>
+</div>
+<script type="text/javascript">
+            /* <![CDATA[ */
+            jQuery(document).ready(function($){
+            	if(typeof wppizza.new_orders_notify !== 'undefined'){
+            		/* add admin bar notify div */
+            		if(typeof wppizza.new_orders_notify.admin_bar !== 'undefined'){
+            			var having_orders = '';
+            			$('#wpadminbar').append('<div id="wppizza_adminbar_new_orders_notify"></div>');
+            		}
+            		/* audio */
+            		if(typeof wppizza.new_orders_notify.audio !== 'undefined'){
+            			var notifyNewOrdersAudio = new Audio(wppizza.new_orders_notify.audio);	
+            		}
+            		/*polling */
+            		var poll_and_notify = function(){            			
+						/* ajax get new orders */
+						jQuery.post(ajaxurl , {action :'wppizza_admin_orderhistory_ajax',vars:{'field':'new_orders'}}, function(orders) {
+							/* we have orders ! */
+							if(typeof orders.new_orders !=='undefined' && orders.new_orders > 0 ){
+								/* admin bar notifications */
+								having_orders = '<a href="'+wppizza.new_orders_notify.order_link+'"><span>' + orders.new_orders + '</span> ' + wppizza.new_orders_notify.new_order_label + '</a>';
+								
+								/* play audio */
+								if(typeof wppizza.new_orders_notify.audio !== 'undefined'){
+									notifyNewOrdersAudio.play();
+								}						
+							}else{
+								having_orders = '';
+							}
+							
+							/* admin bar notifications show or empty*/
+							if(typeof wppizza.new_orders_notify.admin_bar !== 'undefined'){
+								$('#wppizza_adminbar_new_orders_notify').html(having_orders);
+							}	
+						},'json').error(function(jqXHR, textStatus, errorThrown) {alert('error : ' + errorThrown);});
+            		}
+            		
+            		/* polling interval*/
+					var notifyNewOrdersInterval=setInterval(function(){
+						poll_and_notify();
+					},(wppizza.new_orders_notify.polling_time));
+					
+					/* poll on load too */
+						poll_and_notify();
+            	}
+            });
+            /* ]]> */
+        </script>	<div id="wp-auth-check-wrap" class="hidden">
+	<div id="wp-auth-check-bg"></div>
+	<div id="wp-auth-check">
+	<button type="button" class="wp-auth-check-close button-link"><span class="screen-reader-text">Close dialog</span></button>
+			<div id="wp-auth-check-form" class="loading" data-src="http://okotokspizza-wp.local/wp-login.php?interim-login=1&amp;wp_lang=en_US"></div>
+			<div class="wp-auth-fallback">
+		<p><b class="wp-auth-fallback-expired" tabindex="0">Session expired</b></p>
+		<p><a href="http://okotokspizza-wp.local/wp-login.php" target="_blank">Please log in again.</a>
+		The login page will open in a new window. After logging in you can close it and return to this page.</p>
+	</div>
+	</div>
+	</div>
+	
+<script type="text/javascript">
+/* <![CDATA[ */
+var commonL10n = {"warnDelete":"You are about to permanently delete these items from your site.\nThis action cannot be undone.\n 'Cancel' to stop, 'OK' to delete.","dismiss":"Dismiss this notice.","collapseMenu":"Collapse Main menu","expandMenu":"Expand Main menu"};/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/load-scripts(1).php"></script>
+<script type="text/javascript" src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/wp-polyfill.min.js.download"></script>
+<script type="text/javascript">
+( 'fetch' in window ) || document.write( '<script src="http://okotokspizza-wp.local/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="http://okotokspizza-wp.local/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.26.0-0"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="http://okotokspizza-wp.local/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="http://okotokspizza-wp.local/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/hooks.min.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var heartbeatSettings = {"nonce":"dd2f2c7836"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/heartbeat.min.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var authcheckL10n = {"beforeunload":"Your session has expired. You can log in again from this page or go to the login page.","interval":"180"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/wp-auth-check.min.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/okotokspizza-wp.local\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/thickbox.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wppizza = {"fnGetOrders":[],"fnStatusChanged":[]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ okotokspizza-wp — WordPress_files/scripts.admin.global.js.download"></script>
+
+<div class="clear"></div></div><!-- wpwrap -->
+<script type="text/javascript">if(typeof wpOnload=='function')wpOnload();</script>
+
+
+<div id="wp-a11y-speak-polite" aria-live="polite" aria-relevant="additions text" aria-atomic="true" class="screen-reader-text wp-a11y-speak-region">File edited successfully.&nbsp;</div><div id="wp-a11y-speak-assertive" aria-live="assertive" aria-relevant="additions text" aria-atomic="true" class="screen-reader-text wp-a11y-speak-region"></div></body></html>
